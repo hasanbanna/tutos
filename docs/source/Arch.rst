@@ -204,14 +204,14 @@ Graphic enviroment
 Installing i3
 ^^^^^^^^^^^^^
 
-As I sad before, we are going to use `I3 <http://i3wm.org/>`__. Take a
+As I said before, we are going to use `I3 <http://i3wm.org/>`__. Take a
 look at there webpage and guide. For make it run we will need to install
 these ``pacman -S i3 dmenu xorg xorg-xinit``. It might ask you about
 some choices - just install anything. It isn't necessary to have all
 crap from Xorg, but to figure out which is and which isn't needed is
 just pain (`wayland <http://wayland.freedesktop.org/>`__ should solve
 this in near future). If it asks you about installing i3-status, approve
-it. Xorg is used for all advance displaing in linux. i3 needs it also.
+it. Xorg is used for all advance displaying in linux. i3 needs it also.
 When you run a graphic enviroment anywhere on linux, it means that Xorg
 is runned and than there might be some windows managers etc. So now we
 just tell Xorg to run i3 after it's start. To do that, we will edit this
